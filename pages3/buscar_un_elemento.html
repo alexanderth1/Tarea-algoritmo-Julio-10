@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar un elemento</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="hero1">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Buscar un elemento</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="../index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="../pages/arreglos.html" class="nav__links">Atras</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hero__container1 container">
+            <h1 class="hero__title">Buscar un elemento</h1>
+            <form class="hero__form">
+                <label>
+                    <p class="hero__paragraph" style="color: black;">Ingrese los numeros</p>
+                    <input class="form" type="text" id="num" value="" placeholder="Ingrese 7,9,3,7,5,......">
+                </label>
+                <label>
+                    <p class="hero__paragraph" style="color: black;">Ingrese los numeros ha buscar</p>
+                    <input class="form" type="text" id="num" value="" placeholder="Ingrese el numero">
+                </label>
+                <div class="about__main2">
+                    <a class="btn-3" type="button" onclick="operaciones6.buscar_un_elemento()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Presentar
+                    </a>
+                </div>
+                <div id="respuesta" class="subtitle11">
+                    La respues es:
+                </div>
+            </form>
+        </section>
+    </header>
+
+    <script src="../js/operaciones.js"></script>
+</body>
+
+</html>

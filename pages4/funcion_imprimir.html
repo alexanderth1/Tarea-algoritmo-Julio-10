@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprimir su nombre</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="hero1">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Imprimir su nombre</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="../index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="../pages/funciones.html" class="nav__links">Atras</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hero__container1 container">
+            <h1 class="hero__title">Imprimir su nombre</h1>
+            <form class="hero__form">
+                <label>
+                    <input class="form" type="text" id="nombre" value="" placeholder="Ingrese su nombre">
+                </label>
+                <div class="about__main2">
+                    <a class="btn-3" type="button" onclick="operaciones3.imprimir_nombre()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Aceptar
+                    </a>
+                </div>
+                <div id="respuesta" class="subtitle11">
+                    La respues es:
+                </div>
+            </form>
+        </section>
+    </header>
+
+    <script src="../js/operaciones.js"></script>
+</body>
+
+</html>
